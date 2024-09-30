@@ -2,25 +2,20 @@
 using namespace std;
 
 int main(){
-    int x;
-    cin>>x;
+    int testcase; cin>>testcase;
 
-    for (int i = 1; i <= x; i++)
+    for (int i=1,z=0;i<=testcase;i++,z+=2)
     {
-        int space = x - 1;
-        int w=1;
-        while (w<=space)
+        for (int w = 0; w <testcase-i; w++)
         {
             cout<<" ";
-            w++;
-        }w++;
-        
-        for (int y=1;y<=i;y++)
+        }
+        for (int q=0;q<=z;q++)
         {
             cout<<"*";
         }
         cout<<"\n";
-        
     }
+    
     return 0;
 }

@@ -1,19 +1,28 @@
 #include <iostream>
-
 using namespace std;
 
-int main(){int num1,num2;
-    cin>>num1>>num2;
-    int sum =num1+num2;
-    long long int eldarb= num1 * num2;
+int main(){
+    int first_num,second_num;
+    cin >> first_num;
 
-    //5 + 10 = 15
-    //5 * 10 = 50
-    //5 - 10 = -5
+    char operation;
+    cin >> operation>>second_num;
 
-    cout<<num1<<" + "<<num2<<" = "<<sum;
-    cout<<"\n"<<num1<<" * "<<num2<<" = "<<eldarb;
-    cout<<"\n"<<num1<<" - "<<num2<<" = "<<num1-num2;
-
+    if (operation == '+')
+    {
+        cout << first_num + second_num;
+       
+    }else if(operation == '-'){
+            cout <<first_num - second_num;
+          
+    }else if(operation == '*'){
+            cout<< first_num*second_num;
+           
+    }else if(operation == '/'){
+        cout << first_num/second_num;
+        
+    }
+    
+    
     return 0;
 }

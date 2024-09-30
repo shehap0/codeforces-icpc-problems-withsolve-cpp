@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d82dff22-9e89-45d2-bffe-0c2bc91098e8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.vscode/settings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c++ #1 (data_type)/1 to n.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c++ #1 (data_type)/1-N.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c++ #1 (data_type)/1-N.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c++ #1 (data_type)/G_summation.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c++ #1 (data_type)/SUMMATION.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c++ #1 (data_type)/alfabit.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c++ #1 (data_type)/alfabit.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c++ #1 (data_type)/area_of_cicle.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c++ #1 (data_type)/bigger_than.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c++ #1 (data_type)/calculator.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c++ #1 (data_type)/calculator.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c++ #1 (data_type)/differance.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c++ #1 (data_type)/discound.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c++ #1 (data_type)/even_numbersGPT.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c++ #1 (data_type)/even_numbersGPT.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c++ #1 (data_type)/if_mutblies.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c++ #1 (data_type)/ios_base.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c++ #1 (data_type)/max_min.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c++ #1 (data_type)/max_min.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c++ #1 (data_type)/max_min_{falled}.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c++ #1 (data_type)/max_min{CHATGPT}.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c++ #1 (data_type)/odd_numbers.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c++ #1 (data_type)/tempCodeRunnerFile.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c++ #1 (data_type)/tempCodeRunnerFile.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c++ #1 (data_type)/trying1222222.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c++ #1 (data_type)/trying1222222.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c++ #1 (data_type)/two_numbers.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c++ #1 (data_type)/two_numbers.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c++ #2 (loops)/.vscode/launch.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c++ #2 (loops)/.vscode/tasks.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c++ #2 (loops)/Even_Odd_Positive_Negative.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c++ #2 (loops)/Even_Odd_Positive_Negative.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c++ #2 (loops)/Factorial.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c++ #2 (loops)/Factorial.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c++ #2 (loops)/Fixed_Password.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c++ #2 (loops)/Fixed_Password.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c++ #2 (loops)/Multiplication_table.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c++ #2 (loops)/O_Pyramid.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c++ #2 (loops)/O_Pyramid.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c++ #2 (loops)/Primes_from1_to_n.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c++ #2 (loops)/Primes_from1_to_n.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c++ #2 (loops)/Pyramid_with_numbers.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c++ #2 (loops)/T-shape2.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c++ #2 (loops)/T-shape2.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c++ #2 (loops)/even_numbers.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c++ #2 (loops)/even_numbers.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c++ #2 (loops)/max.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c++ #2 (loops)/max.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c++ #2 (loops)/p_Shape1pyramid.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c++ #3 (arrays)/V_Frequency_ArrayTIMEEXCEEDED.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c++ #4 (string)/K_LoveStrings.cpp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 6
+}]]></component>
+  <component name="ProjectId" id="2mNIURy0Cnh42CiOUQDz1bNWtUB" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.22855.74" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.22855.74" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d82dff22-9e89-45d2-bffe-0c2bc91098e8" name="Changes" comment="" />
+      <created>1726910628367</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1726910628367</updated>
+      <workItem from="1726910629459" duration="90000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

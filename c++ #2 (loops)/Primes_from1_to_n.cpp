@@ -2,14 +2,20 @@
 using namespace std;
 
 int main(){
-    int x,test=0;
-    cin>>x;
+    int num; cin>>num;
 
-    for (int i=1; i<=x ;i++)
+    for(int i=2;i<=num;i++)
     {
-        if(x/i>1){
-            cout<<i<<" ";
-        }   
+        bool prime=true;
+        for(int w=2;w<i;w++)
+        {
+            if(i%w==0)
+            {
+                prime=false;
+                break;
+            }
+        }
+        if(prime){cout<<i<<" ";}
     }
     return 0;
 }

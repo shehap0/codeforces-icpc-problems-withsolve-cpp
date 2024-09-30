@@ -7,7 +7,7 @@ int main(){
 
     for (int i=0; i < testcase; i++)
     {
-        int result=1,num;
+        long long result=1,num;
         cin >> num;
 
         for (int i=1; i <= num; i++)
