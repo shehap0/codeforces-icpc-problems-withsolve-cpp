@@ -10,17 +10,41 @@ int main(){
     }
     
     long long sereja=0,dima=0;
-    sort(arr,arr+size);
-    reverse(arr,arr+size);
+    int i=0,L=0,R=1;
     bool test=true;
-    for (int i = 0; i < size; i++)
+    while(i<size)
     {
-        if(test)
+        int left=arr[L],right=arr[size-R];
+        if(left>right)
         {
-            sereja+=arr[i];
+            if(test)
+            {
+            sereja+=left;
+            L++,i++;
             test=false;
-        }else{dima+=arr[i]; test=true;}
+            }else
+            {
+                dima+=left;
+                L++,i++;
+                test=true;
+            }
+        
+        }else
+        {
+            if(test)
+            {
+            sereja+=right;
+            R++,i++;
+            test=false;
+            }else
+            {
+                dima+=right;
+                R++,i++;
+                test=true;
+            }
+        }
     }
+    
     
     cout<<sereja<<" "<<dima;
 
