@@ -1,13 +1,13 @@
 #include <iostream>
 using namespace std;
 
-int main(){
-    int rows,colums; cin>>rows>>colums;
+int main(){                                 // SOMETHING WRONG WITH MY TERMINAL
+    int rows,columns; cin>>rows>>columns;
 
-    string arr[100][100];
+    char arr[100][100];
     for (int i = 0; i < rows; i++)
     {
-        for (int w = 0; w <colums; w++)
+        for (int w = 0; w <columns; w++)
         {
             cin>>arr[i][w];
         }
@@ -18,14 +18,14 @@ int main(){
     //rows
     for (int i = 0; i < rows; i++)
     {
-        for (int w = 0; w < colums; w++)
+        for (int w = 0; w < columns; w++)
         {
-            if(arr[i][w]=="S")
+            if(arr[i][w]=='S')
             {
                 test=0;
                 break;
             }
-            if(arr[i][w]==".")
+            if(arr[i][w]=='.')
             {
                 test++;
                 arr[i][w]='#';
@@ -35,16 +35,17 @@ int main(){
         test=0;
     }
 
-    for (int i = 0; i < colums; i++)
+    // columns
+    for (int i = 0; i < columns; i++)
     {
         for (int w = 0; w < rows; w++)
         {
-            if(arr[w][i]=="S")
+            if(arr[w][i]=='S')
             {
                 test=0;
                 break;
             }
-            if(arr[w][i]==".")
+            if(arr[w][i]=='.')
             {
                 test++;
                 arr[w][i]='#';

@@ -4,18 +4,18 @@ using namespace std;
 int main(){
     string s; cin>>s;
     // if string all ????? lol
-    bool therestring=false;
+    bool there_string=false;
     for (int i = 0; i<size(s); i++)
     {
         if(s[i]!='?')
         {
-            therestring=true;
+            there_string=true;
             break;
         }
     }
     
 
-    if(therestring){
+    if(there_string){
     // replacing ?
     for(int i=0;i<size(s);i++)
     {
@@ -25,7 +25,7 @@ int main(){
         }
     }
 
-    // checking if palandromes
+    // checking if palindromes
     for (int i = 0; i < size(s); i++)
     {
         if ( s[i] != s[size(s)-i-1] ) {cout<<"-1"; return 0;}

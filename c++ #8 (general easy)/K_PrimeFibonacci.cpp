@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int main(){
+int main(){                 // TIME EXCEEDED ,iam sorry 
     int testcase; cin>>testcase;
 
     while(testcase--)
@@ -16,7 +16,7 @@ int main(){
             f2=f3;
         }
 
-        // lol this shit is taking alot of time
+        // lol this shit is taking a lot of time
         bool test=false;
         for(int i = 2; i < f3; i++)
         {
