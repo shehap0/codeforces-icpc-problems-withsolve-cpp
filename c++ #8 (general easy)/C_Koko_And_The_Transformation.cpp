@@ -1,66 +1,45 @@
 #include <iostream>
-#include <vector>
-#include <map>
-#include <queue>
-#include <algorithm>
-
 using namespace std;
 
-// Function to break down elements of array a by repeatedly halving
-vector<int> normalize(vector<int> a) {
-    priority_queue<int> pq;
+/*
+    explanation
     
-    // Push all elements of a into a max heap (priority queue)
-    for (int x : a) {
-        pq.push(x);
-    }
+    on test 1
+    we see 2 arrays         arr1 {6 15 6}     arr2 {5 12 0 3 7}
 
-    vector<int> result;
-    
-    while (!pq.empty()) {
-        int top = pq.top();
-        pq.pop();
-        
-        // Add the largest element to the result vector
-        result.push_back(top);
-        
-        // Keep breaking the element into halves while it's even
-        while (top % 2 == 0) {
-            top /= 2;
-            pq.push(top);
-        }
-    }
+    Pick two values from a and merge them into one value equal to their sum?
+    lets pick two values from arr1 number 6 and 6 and merge them into number 12 in arr2. DONE
 
-    return result;
-}
+    Pick value from a and split it into two values such that their sum are equal to the initial value?
+    lets pick number 15 from arr1 and spilt it to 5 and 10 the 5 exist in arr2 but the 10 not.
+    we will spilt the 10 to 3 and 7, they exist in arr2.
 
-int main() {
-    int n, m;
-    cin >> n >> m;
+    conclusion:
+    all numbers in arr1 must be equal to arr2. 
 
-    vector<int> a(n), b(m);
-    
-    for (int i = 0; i < n; i++) {
-        cin >> a[i];
+*/
+int main(){                     // there always easy way 
+    int size1,size2; cin>>size1>>size2;
+    int arr1[size1],arr2[size2];
+    int sum1=0,sum2=0;
+
+    for(int i=0; i<size1 ; i++)
+    {
+        cin>>arr1[i];
+        sum1+=arr1[i];
     }
     
-    for (int i = 0; i < m; i++) {
-        cin >> b[i];
+    for(int i=0; i<size2 ; i++)
+    {
+        cin>>arr2[i];
+        sum2+=arr2[i];
     }
 
-    // Normalize both arrays by breaking down large numbers
-    a = normalize(a);
+    if(sum1==sum2)
+    {
+        cout<<"Yes";
+    }else{cout<<"No";}
     
-    // Sort both arrays for comparison
-    sort(a.begin(), a.end());
-    sort(b.begin(), b.end());
-
-    // Compare the two arrays
-    if (a == b) {
-        cout << "Yes" << endl;
-    } else {
-        cout << "No" << endl;
-    }
 
     return 0;
 }
